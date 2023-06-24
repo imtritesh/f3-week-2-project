@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.head{
+    color: white;
+    border-bottom: solid 2px white;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header{
+    float: left;
+    margin-left: 15px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.direct{
+    display: flex;
+    justify-content: right;
+    float: right;
+    gap: 20px;
+    margin-right: 15px;
+}
+
+#signup-page{
+    /* border: 2px solid red; */
+    height: 500px;
+    color: white;
+    margin: 100px 250px;
+}
+
+#signup-page h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#signup-page input{
+    color: white;
+    margin: 0 10px;
+    width: 98%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 18px;
+}
+
+input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+input:focus{
+    outline: none;
+}
+
+#signup-message{
+    height: 50px;
+}
+
+button{
+    height: 50px;
+    width: 125px;
+    margin: 10px;
+    background-color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#profile-page h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+#profile-page{
+    color: white;
+    margin: 100px 150px;
+    width: 70%;
+    height: 50px;
+    font-size: 22px;
+}
+
+#profile-name{
+    color: white;
+}
+
+#profile-page div{
+    height: 50px;
+}
+
+.error{
+    color: red;
+    font-size: large;
+}
+
+.success{
+    color: green;
+    font-size: large;
+}
